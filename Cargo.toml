@@ -1,0 +1,13 @@
+[package]
+name = "i3m_scene_converter"
+version = "0.1.0"
+authors = ["Dedan Okware <softengdedan@gmail.com>"]
+edition = "2021"
+
+[dependencies]
+i3m = { version = "0.34.1", git = "https://github.com/IThreeM/I3M-Engine-Core" }
+i3m-graph = { version = "0.1.0",  git = "https://github.com/IThreeM/I3M-Engine-Core" }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+clap = { version = "4.0", features = ["derive"] }
+walkdir = "2.3"
